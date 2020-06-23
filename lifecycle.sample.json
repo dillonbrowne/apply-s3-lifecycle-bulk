@@ -1,0 +1,13 @@
+{
+  "Rules": [
+    {
+      "Expiration": { "ExpiredObjectDeleteMarker": true },
+      "ID": "MoveAllToGlaicer",
+      "Filter": { "Prefix": "" },
+      "Status": "Enabled",
+      "Transitions": [ { "Days": 1, "StorageClass": "DEEP_ARCHIVE" } ],
+      "NoncurrentVersionTransitions": [ { "NoncurrentDays": 1, "StorageClass": "DEEP_ARCHIVE" } ],
+      "AbortIncompleteMultipartUpload": { "DaysAfterInitiation": 1 }
+    }
+  ]
+}
