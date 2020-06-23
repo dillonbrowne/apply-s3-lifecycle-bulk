@@ -1,4 +1,4 @@
-## Attach a Lifecycle to S3 Buckets in Bulk
+## Attach Lifecycle Rules to S3 Buckets in Bulk
 A simple node.js utility to apply a lifecycles rules to a list of buckets.
 
 ### Setup
